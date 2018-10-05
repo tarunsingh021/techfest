@@ -32,12 +32,14 @@ body {
 	background-size: cover;
 	z-index: 1;
 	min-height: 120vh;
+	width:100vw;
 	color: #57585c;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	padding-top: 10rem;
+	overflow-x: hidden;
 }
 
 /* Page Loader */
