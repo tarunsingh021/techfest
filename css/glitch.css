@@ -32,7 +32,7 @@ body {
 .thead{
 	position: relative;
 	bottom: 330px;
-	left: 20vw;
+	left: 30vw;
 }
 
 
@@ -563,12 +563,12 @@ main {
 	position: relative;
 	font-size: 120px;
 	bottom: 330px;
-	left: 18vw;
+	left: 23vw;
 }
 .comingsoon2{
 	font-size: 80px;
 	position: relative;
-	right: 15%;
+	right: 24%;
 }a {
 	 text-decoration: none;
 	 color: var(--color-link);

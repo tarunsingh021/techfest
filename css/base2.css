@@ -414,7 +414,8 @@ a:focus {
 		font-size: 17px;
 	}
 	.content {
-		top: 0;
+		position: absolute;
+		top: 10%;
 		height: 100%;
 	}
 	.content__item {
