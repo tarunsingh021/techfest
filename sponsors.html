@@ -19,8 +19,16 @@
 
 </head>
 <body class ="demo-2 loading">
-<main>
-    <div class="message">Sorry, your browser does not support clip-path on HTML elements!</div>
+    <svg class="hidden">
+        <symbol id="icon-menu" viewBox="0 0 119 25">
+            <title>menu</title>
+            <path d="M36,8 L36,0 L100,0 L100,8 L36,8 Z M0,8 L0,0 L24,0 L24,8 L0,8 Z M0,28 L0,20 L71,20 L71,28 L0,28 Z"/>
+        </symbol>
+        <symbol id="icon-close" viewBox="0 0 24 24">
+            <title>close</title>
+            <path d="M24 1.485L22.515 0 12 10.515 1.485 0 0 1.485 10.515 12 0 22.515 1.485 24 12 13.484 22.515 24 24 22.515 13.484 12z"/>
+        </symbol>
+    </svg>
 
     <div class="content">
 
@@ -34,10 +42,63 @@
         <h2 class="content__title shead">Sponsors</h2>
         <h2 class="content__title comingsoon2">Coming soon..</h2>
     </div>
-</main>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/TweenMax.min.js"></script>
-<script src="js/demog.js"></script>
+    <nav class="menu">
+        <div class="menu__item menu__item--1" data-direction="bt">
+            <div class="menu__item-inner">
+                <div class="mainmenu">
+                    <a href="index.html" class="mainmenu__item">Techfest 2018</a>
+                    <a href="events.html" class="mainmenu__item">Events</a>
+                    <a href="team.html" class="mainmenu__item">Our Team</a>
+                    <a href="sponsors.html" class="mainmenu__item">Sponsors</a>
+                    <a href="contact.html" class="mainmenu__item">Contact us</a>
+                </div>
+                <p class="label label--topleft label--vert-mirror">HMRITM</p>
+                <p class="label label--bottomright label--vert">The Important Stuff</p>
+            </div>
+        </div>
+        <div class="menu__item menu__item--2" data-direction="lr">
+            <div class="menu__item-inner">
+                <div class="menu__item-map"></div>
+                <a href="https://goo.gl/maps/dQ8LBvDARF52" class="menu__item-hoverlink">The Location</a>
+            </div>
+        </div>
+        <div class="menu__item menu__item--3" data-direction="bt">
+            <div class="menu__item-inner">
+                <div class="sidemenu">
+                    <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">MAIN EVENTS</span></a>
+                    <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">PROJECT EXPO</span></a>
+                    <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">CODING COMPETITION</span></a>
+                    <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">ROBO SOCCER</span></a>
+                    <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">TECH QUIZ</span></a>
+                    <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">ONLINE GAMING</span></a>
+                    <a href="events.html" class="sidemenu__item"><span class="sidemenu__item-inner">SEE ALL...</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="menu__item menu__item--4" data-direction="rl">
+            <div class="menu__item-inner">
+
+                <p class="label label--topleft label--line">Be a Part now</p>
+                <a href="javascript:void(0)" class="menu__item-link">Register Now</a>
+            </div>
+
+
+
+        </div>
+        <div class="menu__item menu__item--5" data-direction="tb">
+            <div class="menu__item-inner">
+                <p class="quote">"Everything is designed. Few things are designed well."</p>
+            </div>
+        </div>
+
+
+        <button class="action action--menu"><svg class="icon icon--menu"><use xlink:href="#icon-menu"></use></svg></button>
+        <button class="action action--close"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg></button>
+    </nav>
+    <script src="js/charming.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/demog.js"></script>
 </body>
 </html>
 
